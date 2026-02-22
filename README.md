@@ -1,6 +1,6 @@
-# Real-World Visual Privacy Protection Against Shoulder Surfing Attacks 🔐
+# Real-World Visual Privacy Protection Against Shoulder Surfing Attacks 
 
-## 🧠 Overview
+## Overview
 This project implements a secure authentication mechanism designed to prevent shoulder surfing attacks.
 
 Shoulder surfing is an observational attack where attackers steal credentials by watching users enter passwords in public environments.
@@ -9,12 +9,12 @@ This system introduces a dynamic visual authentication interface to protect user
 
 ---
 
-## 🚨 Problem
+## Problem
 Traditional password systems are vulnerable to visual eavesdropping in public places like classrooms, offices, ATMs, and cafes.
 
 ---
 
-## 💡 Solution
+## Solution
 - Dynamic visual password interface
 - Randomized UI elements
 - Observation-resistant authentication

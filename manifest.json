@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Privacy Guard (Face Detection)",
+  "version": "1.0.0",
+  "description": "Blurs the screen and alerts when a face is staring for X seconds with eyes open.",
+  "permissions": ["storage", "scripting", "activeTab", "notifications", "offscreen"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

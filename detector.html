@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Privacy Guard Detector</title>
+
+  <!-- Load MediaPipe + helpers from libs/ -->
+  <script src="libs/camera_utils.js"></script>
+  <script src="libs/face_detection.js"></script>
+  <script src="libs/face_detection_solution_wasm_bin.js"></script>
+  <!-- optional: if you want simd too, uncomment this line -->
+  <!-- <script src="libs/face_detection_solution_simd_wasm_bin.js"></script> -->
+</head>
+<body>
+  <video id="pg-video" autoplay playsinline muted style="display:none;"></video>
+  <div id="status">Loading...</div>
+
+  <!-- Our detector logic (uses the things above) -->
+  <script src="detector.js"></script>
+</body>
+</html>

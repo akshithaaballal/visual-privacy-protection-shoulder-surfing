@@ -19,7 +19,7 @@ Physical privacy screens are:
 - Ineffective in dynamic environments
 - Unable to detect when someone is behind the user
 
-There is a need for a software-based, intelligent, real-time solution that actively protects digital privacy.
+There is a need for a software-based, intelligent, real-time solution that actively protects our privacy.
 
 ---
 
